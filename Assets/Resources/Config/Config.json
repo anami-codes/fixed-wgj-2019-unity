@@ -1,0 +1,8 @@
+﻿{
+  "Entry": {
+    "Actor": "Actors",
+    "Dialogue": "Dialogues",
+    "Item": "Items",
+    "Quest": "Quests",
+  }
+}

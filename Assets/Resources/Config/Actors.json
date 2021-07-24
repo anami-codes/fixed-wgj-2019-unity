@@ -1,0 +1,19 @@
+﻿{
+  "Entry 0": {
+    "sceneId": "DEBUG",
+    "id": "DEBUG",
+    "name": "DebugActor"
+  },
+
+  "Entry 1": {
+    "sceneId": "SCE01",
+    "id": "ACT01",
+    "name": "Witch"
+  },
+
+  "Entry 2": {
+    "sceneId": "SCE01",
+    "id": "ACT02",
+    "name": "Sick Child"
+  }
+}

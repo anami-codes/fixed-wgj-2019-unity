@@ -1,0 +1,117 @@
+{
+	"Entry0": {
+		"sceneId": "DEBUG",
+		"actorId": "DEBUG",
+		"dialogueId": "DTEST",
+		"dialogues": {
+			"dialogues_0": "This is a test",
+			"dialogues_1": "Nothing more, nothing less.",
+			"dialogues_2": "Test text Test text Test text Test text Test text Test text",
+			"dialogues_3": "Test text Test text Test text Test text Test text Test text Test text Test text",
+			"dialogues_4": "Reaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaally loooooooooooooooooooooooooooooooong",
+			"dialogues_5": "teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest",
+			"dialogues_6": "Coding test: <b>Bold</b> <i>Italic</i> <color=red>Colored</color>",
+			"dialogues_7": "Coding test: <color=red>Red <i>Italic</i> Not Italic</color>",
+			"dialogues_8": "Custom coding test: Actor name -> [ACT=DEBUG]\n[speed=SLOW] Dialogue speed [/speed]"
+		},
+		"conditions": {
+		},
+		"nextId": "",
+		"useFace": "false"
+	},
+	"Entry1": {
+		"sceneId": "SCE01",
+		"actorId": "ACT01",
+		"dialogueId": "D01",
+		"dialogues": {
+			"dialogues_0": "La niña sigue inconciente.",
+			"dialogues_1": "Su fiebre sube y nada parece ayudar.",
+			"dialogues_2": "Se le está acabando el tiempo."
+		},
+		"conditions": {
+		},
+		"nextId": "",
+		"useFace": "true"
+	}
+	"Entry2": {
+		"sceneId": "SCE01",
+		"actorId": "ACT02",
+		"dialogueId": "D01",
+		"dialogues": {
+			"dialogues_0": "Uh...",
+			"dialogues_1": "Duele..."
+		},
+		"conditions": {
+			"conditions_0": "ITEM04"
+		},
+		"nextId": "SCE01_ACT01_D02",
+		"useFace": "true"
+	}
+	"Entry3": {
+		"sceneId": "SCE01",
+		"actorId": "ACT01",
+		"dialogueId": "D02",
+		"dialogues": {
+			"dialogues_0": "Todavía estás débil, no te muevas mucho.",
+			"dialogues_1": "Necesitas descansar."
+		},
+		"conditions": {
+		},
+		"nextId": "SCE01_ACT02_D02",
+		"useFace": "true"
+	}
+	"Entry4": {
+		"sceneId": "SCE01",
+		"actorId": "ACT02",
+		"dialogueId": "D02",
+		"dialogues": {
+			"dialogues_0": "¿Quién es usted?",
+			"dialogues_1": "¿Dónde estoy?"
+		},
+		"conditions": {
+		},
+		"nextId": "SCE01_ACT01_D03",
+		"useFace": "true"
+	}
+	"Entry5": {
+		"sceneId": "SCE01",
+		"actorId": "ACT01",
+		"dialogueId": "D03",
+		"dialogues": {
+			"dialogues_0": "Esta es mi casa.",
+			"dialogues_1": "Ayer te encontré inconciente en la mitad del bosque.",
+			"dialogues_2": "Ahora, descansa un poco. Tu fiebre sigue alta.",
+			"dialogues_3": "Te ayudaré a regresar al pueblo cuando baje."
+		},
+		"conditions": {
+		},
+		"nextId": "SCE01_ACT02_D03",
+		"useFace": "true"
+	}
+	"Entry6": {
+		"sceneId": "SCE01",
+		"actorId": "ACT02",
+		"dialogueId": "D03",
+		"dialogues": {
+			"dialogues_0": "¿El bosque? Ahí no es donde vive la-",
+			"dialogues_1": "No, espere. No me regrese al pueblo.",
+			"dialogues_2": "Por favor, por favor no me regrese. No puedo volver así."
+		},
+		"conditions": {
+		},
+		"nextId": "SCE01_ACT01_D04",
+		"useFace": "true"
+	}
+	"Entry7": {
+		"sceneId": "SCE01",
+		"actorId": "ACT01",
+		"dialogueId": "D04",
+		"dialogues": {
+			"dialogues_0": "¿Qué? ¿Por qué no puedes volver?"
+		},
+		"conditions": {
+		},
+		"nextId": "SCE01_ACT02_D04",
+		"useFace": "true"
+	}
+}

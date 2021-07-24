@@ -1,0 +1,37 @@
+{
+  "Entry0": {
+    "id": "DEBUG",
+    "name": "DebugItem",
+    "imgPath": "Test_Sprites",
+    "imgNum": "0",
+    "spritesheet": "true"
+  },
+  "Entry1": {
+    "id": "ITEM01",
+    "name": "Flower",
+    "imgPath": "Flor",
+    "imgNum": "0",
+    "spritesheet": "false"
+  },
+  "Entry2": {
+    "id": "ITEM02",
+    "name": "Mushroom",
+    "imgPath": "Hongo",
+    "imgNum": "0",
+    "spritesheet": "false"
+  },
+  "Entry3": {
+    "id": "ITEM03",
+    "name": "Water",
+    "imgPath": "Agua",
+    "imgNum": "0",
+    "spritesheet": "false"
+  },
+  "Entry4": {
+    "id": "ITEM04",
+    "name": "Medicine",
+    "imgPath": "Cura",
+    "imgNum": "0",
+    "spritesheet": "false"
+  }
+}

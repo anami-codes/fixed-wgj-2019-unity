@@ -1,0 +1,26 @@
+﻿{
+  "Entry1": {
+    "sceneId": "SCE01",
+    "id": "QUEST01",
+    "name": "Martes,",
+    "description": "Me siento intranquila últimamente.
+Por alguna razón la gente del pueblo ha estado entrando al bosque con más frecuencia, hoy incluso encontré una niña enferma en lo profundo del bosque.
+Espero que esto no sea un mal augurio.",
+    "conditions": {
+    }
+  }
+    "Entry2": {
+    "sceneId": "SCE01",
+    "id": "QUEST02",
+    "name": "Medicina,",
+    "description": "Ingredientes:
+	- Lirio rojo.
+	- Hongo
+	- Agua fresca
+	
+Hervir durante 10 minutos y tomar de inmediato.",
+    "conditions": {
+		"conditions_0": "SCE01_ACT01_D01",
+    }
+  }
+}
